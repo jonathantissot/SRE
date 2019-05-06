@@ -5,7 +5,7 @@
 #   https://lonesysadmin.net/2013/03/26/preparing-linux-template-vms/
 #   http://libguestfs.org/virt-sysprep.1.html
 # Tested on CentOS 7
-# You can run it with curl -s https://raw.githubusercontent.com/jonathantissot/SRE/master/centos7-template-cleanup | sudo bash
+# You can run it with curl -s https://raw.githubusercontent.com/jonathantissot/SRE/master/centos7-template-cleanup.sh | sudo bash
 
 # Stop logging servers
 /sbin/service rsyslog stop
